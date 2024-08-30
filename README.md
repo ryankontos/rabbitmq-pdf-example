@@ -27,14 +27,6 @@ Install the necessary dependencies using npm:
 npm install
 ```
 
-### 3. Configure TypeScript
-
-Ensure that TypeScript is properly configured by reviewing the `tsconfig.json` file. The provided configuration should work out of the box for this project.
-
-### 4. Place a Sample PDF
-
-Place a sample PDF file in the `src` directory and name it `sample.pdf`. This is the file that will be sent over RabbitMQ.
-
 ## Running the Project
 
 ### Sending the PDF
