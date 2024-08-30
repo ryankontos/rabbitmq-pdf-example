@@ -1,0 +1,18 @@
+{
+  "name": "rabbitmq-pdf-example",
+  "version": "1.0.0",
+  "scripts": {
+    "send": "ts-node src/send.ts",
+    "recv": "ts-node src/recv.ts"
+  },
+  "devDependencies": {
+    "typescript": "^5.x",
+    "ts-node": "^10.x",
+    "@types/node": "^18.x",
+    "@types/amqplib": "^0.8.x"
+  },
+  "dependencies": {
+    "amqplib": "^0.8.x",
+    "uuid": "^9.x"
+  }
+}
